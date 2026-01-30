@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "norse";
+    src: 
+        url("fonts/Norse.woff2") format("woff2"),
+        url("fonts/Norse.woff") format("woff");
+        font-weight: 400;
+}
+
+@font-face {
+    font-family: "norse";
+    src:
+        url("fonts/Norsebold.woff2") format("woff2"),
+        url("fonts/Norsebold.woff") format("woff");
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-div {
+    background-image: url("background.jpg");
+    height: 100vh;
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-wrapper {
+    flex: 2;
+}
+
+.form-entries {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-right: 100px;
+}
+
+.form-entries div {
+    min-width: 40%;
+}
