@@ -38,9 +38,19 @@
 .form-entries {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    row-gap: 30px;
+    padding: 24px 120px 8px 120px;
+    background-color: antiquewhite;
 }
 
-.form-entries>div {
-    flex: 1 1 45%;
+.form-entries > div {
+    flex: 1 1 40%;
+    position: relative;
+}
+
+div > label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 0.9em;
 }
