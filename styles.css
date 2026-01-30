@@ -22,23 +22,25 @@
 .logo-div {
     background-image: url("background.jpg");
     height: 100vh;
-    flex: 1;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
+
+    flex: 0 0 33%;
+    min-width: 300px;
 }
 
 .form-wrapper {
-    flex: 2;
+    flex: 1;
+    min-width: 0;
 }
 
 .form-entries {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    row-gap: 20px;
-    padding-right: 100px;
+    gap: 20px;
 }
 
-.form-entries div {
-    min-width: 40%;
+.form-entries>div {
+    flex: 1 1 45%;
 }
