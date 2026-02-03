@@ -14,6 +14,38 @@
     font-weight: 700;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.form-wrapper {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+form {
+    background-color: antiquewhite;
+    padding-left: 72px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.form-wrapper > h2 {
+    padding-left: 72px;
+    padding-right: 20%;
+}
+
+.form-wrapper > button {
+    margin-top: 24px;
+    margin-left: 72px;
+    width: 120px;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -39,8 +71,7 @@
     display: flex;
     flex-wrap: wrap;
     row-gap: 30px;
-    padding: 24px 120px 8px 120px;
-    background-color: antiquewhite;
+    padding-top: 24px;
 }
 
 .form-entries > div {
