@@ -14,12 +14,28 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "copper-hewitt";
+    src:
+        url("fonts/cooper-hew/CooperHewitt-Semibold.woff2") format("woff2"),
+        url("fonts/cooper-hew/CooperHewitt-Semibold.woff") format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "copper-hewitt";
+    src:
+        url("fonts/cooper-hew/CooperHewitt-Medium.woff2") format("woff2"),
+            url("fonts/cooper-hew/CooperHewitt-Medium.woff") format("woff");
+    font-weight: 100;
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    color: rgb(59, 59, 59);
+    font-family: "copper-hewitt", Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -53,7 +69,7 @@ form {
 
 form > h3 {
     padding: 10px 0px;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .form-wrapper > h2 {
