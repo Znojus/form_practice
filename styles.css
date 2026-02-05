@@ -19,6 +19,7 @@
 *::after {
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
+    color: rgb(59, 59, 59);
 }
 
 body {
@@ -52,6 +53,7 @@ form {
 
 form > h3 {
     padding: 10px 0px;
+    font-size: 1.5em;
 }
 
 .form-wrapper > h2 {
@@ -89,7 +91,7 @@ form > h3 {
 .form-entries {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 30px;
+    row-gap: 50px;
     padding-top: 24px;
     padding-right: 20%;
 }
@@ -117,14 +119,14 @@ textarea {
     padding: 0 10px;
     border-radius: 5px; 
     border-width: 1px;
+}
+
+input:focus {
+    outline: 2px solid rgb(190, 208, 255);
     -webkit-box-shadow: 5px 12px 15px 0px rgba(0, 0, 0, 0.08);
     box-shadow: 5px 12px 15px 0px rgba(0, 0, 0, 0.08);
 }
 
-input:focus {
-    outline: 2px solid blue;
-}
-
 input:invalid {
-    border: 2px dashed red;
+    border: 2px solid rgb(255, 101, 101);
 }
