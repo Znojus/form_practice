@@ -75,16 +75,12 @@ textarea {
 }
 
 .logo-icon {
+    background-color: rgba(0, 0, 0, 0.308);
     display: flex;
     padding: 20px;
-    min-height: 200px;
+    height: 220px;
     justify-content: center;
     margin-top: 30%;
-}
-
-.logo-div > div{
-    background-color: rgba(0, 0, 0, 0.308);
-    height: 100px;
 }
 
 .logo-div span {
@@ -94,10 +90,10 @@ textarea {
     color: rgb(255, 255, 255);
 }
 
-img {
+/* img {
     max-width: 100%;
     height: auto;
-}
+} */
 
 form,
 .login-div,
