@@ -91,6 +91,7 @@ form > h3 {
     flex-wrap: wrap;
     row-gap: 30px;
     padding-top: 24px;
+    padding-right: 20%;
 }
 
 .form-entries > div {
@@ -112,8 +113,8 @@ input,
 textarea {
     font-size: 1.1em;
     line-height: 2;
+    width: 350px;
     padding: 0 10px;
-    width: 40%;
     border-radius: 5px; 
     border-width: 1px;
     -webkit-box-shadow: 5px 12px 15px 0px rgba(0, 0, 0, 0.08);
