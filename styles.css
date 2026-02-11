@@ -72,6 +72,8 @@ textarea {
 
     flex: 0 0 33%;
     min-width: 300px;
+
+    position: relative;
 }
 
 .logo-icon {
@@ -83,7 +85,7 @@ textarea {
     margin-top: 30%;
 }
 
-.logo-div span {
+.logo-icon span {
     font-size: 10em;
     font-family: "norse";
     font-weight: 800;
@@ -178,7 +180,8 @@ input:invalid {
     border: 2px solid rgb(255, 101, 101);
 }
 
-.login-span:hover, button:hover {
+.login-span:hover,
+button:hover {
     cursor: pointer;
 }
 
@@ -196,4 +199,20 @@ button:hover {
 
 .login-span:hover {
     color: rgba(158, 93, 8, 0.836);
+}
+
+.credits-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.credits {
+    color: white;
+    position: absolute;
+    bottom: 12px;
+}
+
+.credits a {
+    color: inherit;
+    text-decoration: underline;
 }
